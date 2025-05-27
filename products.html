@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techvibe-Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">Techvibe</h2>
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Home</a></li>
+                    <a href="products.html">Products</a></li>
+                    <br>
+                    <a href="contact.html">Contact</a></li>
+                    <br>
+                    <a href="cart.html" class="cart-link">Cart<span id="cart-count"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Our Products</h1>
+
+            <!---Filter buttons-->
+            <div class="filters">
+                <button  class="filter-btn active" data-category= "All">all Products</button>
+                <button  class="filter-btn phones" data-category= "phones">Phones</button>
+                <button  class="filter-btn laptops" data-category= "laptops">Laptops</button>
+                <button  class="filter-btn accesories" data-category= "accesories">Accesories</button>
+            </div>
+            <!----products here-->
+
+            <div class="products-grid" id="products-grid">
+                <!----javascript will populate products here-->
+            </div>
+
+        </div>
+    </main>
+  
+    <footer class="footer">
+        <p>©2025 <b>Techvibe</b>. All rights resereved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
